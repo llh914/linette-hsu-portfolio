@@ -11,8 +11,9 @@
 	</head>
 
 	<body>
-		<header class="container top">
+		<header class="container">
 			<nav class="navbar">
+			  <div class="container-fluid">
 			    <div class="navbar-header">
 			      <a class="logo" href="#">Linette Hsu</a>
 			    </div>
@@ -21,6 +22,7 @@
 					<li><a href="portfolio.html">Portfolio</a></li>
 					<li><a href="contact.html">Contact</a></li>
 			    </ul>
+			  </div>
 			</nav>
 		</header>
 		<hr/>
@@ -28,23 +30,18 @@
 			<div class=" container">
 				<div class="row">
 					<div class="col-md-8 col-sm-7 main-section">
-						<h2>About Me</h2>
-						<div class="row">
-							<div class="col-sm-12 col-md-3">
-								<img id="profile-picture" src="assets/images/Linette Hsu.jpg" alt="Linette Hsu">
-							</div>
-							<div class="col-sm-12 col-md-9">
-								<p>
-									I'm a Chicago native with a Bachelor's in Biological Sciences from Northwestern University, currently working as a paralegal in an intellectual property law firm. 
-								</p><br>
-								<p> 
-									Over the last two years I have assisted many of our clients in securing patents for their inventions and designs, but now I am interested in transitioning to a career heavy in problem-solving and with a lot of room for creativity. Cue my interest in web development. I am currently enrolled in the Northwestern Coding Bootcamp program, and by the end of the program, I will be able to call myself a full-stack developer.
-								</p><br>
-								<p>	
-									When I am not working or coding, you can find me kickboxing, trying out new restaurants, or traveling the world.
-								</p>
-							</div>
-						</div>
+						<h2>Contact</h2>
+						<form class="row" action="mailto:linette.hsu13@gmail.com" method="post" enctype="text/plain">
+							<label class="col-xs-12">Name</label>
+							<input class="col-xs-12 fields input" type ="text" name="name">
+
+							<label class="col-xs-12">Email</label>
+							<input class="col-xs-12 fields input" type ="text" name="email">
+
+							<label class="col-xs-12">Message</label>
+							<textarea class="col-xs-12 fields" name="message" rows="15"></textarea> 
+							<input class=" col-xs-12 col-sm-3 submit" type="submit" value="Submit">
+						</form>
 					</div>
 					<div class="col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-1 social-media">
 						<h3>Connect with Me</h3>
