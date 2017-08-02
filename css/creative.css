@@ -414,3 +414,16 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+
+.skills {
+    width: 100px;
+    margin: auto;
+}
+
+.skill-row {
+    margin-top: 30px;
+}
+
+.portfolio-pic {
+    height: 330px;
+}
