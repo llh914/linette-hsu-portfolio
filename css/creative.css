@@ -425,5 +425,9 @@ body {
 }
 
 .portfolio-pic {
-    height: 330px;
+    height: 300px;
+}
+
+.social {
+    color: black;
 }
