@@ -280,6 +280,11 @@ header .header-content .header-content-inner p {
     margin: 30px;
   }
 }
+@media (max-width: 1199px) {
+    #bio {
+        margin-top: 30px;
+    }
+}
 .call-to-action h2 {
   margin: 0 auto 20px;
 }
